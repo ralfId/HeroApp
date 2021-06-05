@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en SearchScreen.js debe de mostrar un error si no encuentra el hero 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-4"
+  >
+    <h3>
+      Search Form
+    </h3>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-control"
+        name="searchText"
+        onChange={[Function]}
+        placeholder="find a hero"
+        type="text"
+      />
+      <button
+        className="btn btn-primary  mt-2"
+      >
+        search
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-8"
+  >
+    <h3
+      className="px-auto"
+    >
+      Result
+    </h3>
+    <hr />
+    <div
+      className="alert alert-danger"
+    >
+      There is no a hero called: "
+      batmanrrrrr
+      "
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pruebas en SearchScreen.js debe de mostrarse correctamente con los valores por defectp 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-4"
+  >
+    <h3>
+      Search Form
+    </h3>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-control"
+        name="searchText"
+        onChange={[Function]}
+        placeholder="find a hero"
+        type="text"
+      />
+      <button
+        className="btn btn-primary  mt-2"
+      >
+        search
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-8"
+  >
+    <h3
+      className="px-auto"
+    >
+      Result
+    </h3>
+    <hr />
+    <div
+      className="alert alert-info"
+    >
+      Search a hero
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pruebas en SearchScreen.js debe mostrar a batman y el input con el valor del  queryString 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-4"
+  >
+    <h3>
+      Search Form
+    </h3>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-control"
+        name="searchText"
+        onChange={[Function]}
+        placeholder="find a hero"
+        type="text"
+      />
+      <button
+        className="btn btn-primary  mt-2"
+      >
+        search
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-8"
+  >
+    <h3
+      className="px-auto"
+    >
+      Result
+    </h3>
+    <hr />
+    <div
+      className="col animate__fadeIn"
+    >
+      <div
+        className="card h-100"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Batman"
+              className="card-img img-fluid"
+              src="../assets/heroes/dc-batman.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8 "
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                Batman
+              </h5>
+              <p
+                className="card-text"
+              >
+                Bruce Wayne
+              </p>
+              <p
+                className="card-text"
+              >
+                Detective Comics #27
+              </p>
+              <a
+                className="btn btn-outline-primary"
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                Mas...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
