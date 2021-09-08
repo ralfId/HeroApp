@@ -9,14 +9,15 @@ export const HeroCard = ({
     first_appearance,
     characters
 }) => {
-
-    const heroImage = './assets/heroes/' + id + '.jpg';
+    
+    console.log('public/assets/heroes/dc-arrow.jpg')
+    console.log('https://github.com/ralfId/HeroApp/blob/40da456e6a283f2b7e94c7ab99f6a5a54e9bb8ac/public/assets/heroes/dc-arrow.jpg')
     return (
         <div className="col animate__fadeIn">
             <div className="card h-100" style={{ maxWidth: 540 }}>
                 <div className="row">
                     <div className="col-md-4">
-                        <img className="card-img img-fluid" src={heroImage} alt={superhero} />
+                        <img className="card-img img-fluid" src={`assets/heroes/${id}.jpg`} alt={superhero} />
                     </div>
                     <div className="col-md-8 ">
                         <div className="card-body">
