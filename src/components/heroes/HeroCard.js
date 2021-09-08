@@ -9,12 +9,14 @@ export const HeroCard = ({
     first_appearance,
     characters
 }) => {
+
+    const heroImage = './assets/heroes/' + id + '.jpg';
     return (
         <div className="col animate__fadeIn">
             <div className="card h-100" style={{ maxWidth: 540 }}>
                 <div className="row">
                     <div className="col-md-4">
-                        <img className="card-img img-fluid" src={`../assets/heroes/${id}.jpg`} alt={superhero} />
+                        <img className="card-img img-fluid" src={heroImage} alt={superhero} />
                     </div>
                     <div className="col-md-8 ">
                         <div className="card-body">
